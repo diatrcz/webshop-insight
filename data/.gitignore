@@ -1,0 +1,3 @@
+# Ignore extracted or duplicated data files
+*.zip
+*.csv
