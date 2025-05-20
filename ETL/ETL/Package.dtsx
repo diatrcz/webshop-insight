@@ -11,8 +11,8 @@
   DTS:LocaleID="1038"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="33"
-  DTS:VersionGUID="{BB1A9ABA-94E3-4EDA-925C-EEA7DAC08DFE}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{7A11B738-2BDE-4302-AAF4-B27E8CD8469B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -588,7 +588,7 @@
                           cachedName="customer_id"
                           cachedSortKeyPosition="1"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[customer_id]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[customer_id]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[customer_id]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[customer_name]"
                           cachedCodepage="65001"
@@ -596,7 +596,7 @@
                           cachedLength="50"
                           cachedName="customer_name"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[customer_name]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[customer_name]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[customer_name]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[gender]"
                           cachedCodepage="65001"
@@ -604,7 +604,7 @@
                           cachedLength="50"
                           cachedName="gender"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[gender]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[gender]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[gender]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[home_address]"
                           cachedCodepage="65001"
@@ -612,7 +612,7 @@
                           cachedLength="1000"
                           cachedName="home_address"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[home_address]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[home_address]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[home_address]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[zip_code]"
                           cachedCodepage="65001"
@@ -620,7 +620,7 @@
                           cachedLength="50"
                           cachedName="zip_code"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[zip_code]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[zip_code]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[zip_code]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[city]"
                           cachedCodepage="65001"
@@ -628,7 +628,7 @@
                           cachedLength="50"
                           cachedName="city"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[city]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[city]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[city]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[state]"
                           cachedCodepage="65001"
@@ -636,7 +636,7 @@
                           cachedLength="50"
                           cachedName="state"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[state]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[state]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[state]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[country]"
                           cachedCodepage="65001"
@@ -644,13 +644,13 @@
                           cachedLength="50"
                           cachedName="country"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[country]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[country]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[country]" />
                         <inputColumn
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[Age]"
                           cachedDataType="i4"
                           cachedName="Age"
                           externalMetadataColumnId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[age]"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[Age]" />
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[Age]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -911,88 +911,6 @@
                           refId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination 1.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination 1.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\Foreach Loop Customers\Load Customers\Derived Column"
-                  componentClassID="Microsoft.DerivedColumn"
-                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-                  name="Derived Column"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\Foreach Loop Customers\Load Customers\Derived Column.Inputs[Derived Column Input]"
-                      description="Input to the Derived Column Transformation"
-                      name="Derived Column Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Derived Column.Inputs[Derived Column Input].Columns[age]"
-                          cachedCodepage="65001"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="age"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output].Columns[age]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Output]"
-                      description="Default Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      name="Derived Column Output"
-                      synchronousInputId="Package\Foreach Loop Customers\Load Customers\Derived Column.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Output].Columns[Age]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="RedirectRow"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Output].Columns[Age]"
-                          name="Age"
-                          truncationRowDisposition="RedirectRow">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">#{Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output].Columns[age]} == "NULL" ? NULL(DT_I4) : (DT_I4)#{Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output].Columns[age]}</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">age == "NULL" ? NULL(DT_I4) : (DT_I4)age</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Error Output]"
-                      description="Error Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Derived Column Error Output"
-                      synchronousInputId="Package\Foreach Loop Customers\Load Customers\Derived Column.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -1314,11 +1232,93 @@
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Foreach Loop Customers\Load Customers\Sort"
+                  refId="Package\Foreach Loop Customers\Load Customers\Id to int"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Id to int"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Customers\Load Customers\Id to int.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Customers\Load Customers\Id to int.Inputs[Derived Column Input].Columns[age]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="age"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output].Columns[age]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Foreach Loop Customers\Load Customers\Id to int.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Output].Columns[Age]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="RedirectRow"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Output].Columns[Age]"
+                          name="Age"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">#{Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output].Columns[age]} == "NULL" ? NULL(DT_I4) : (DT_I4)#{Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output].Columns[age]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">age == "NULL" ? NULL(DT_I4) : (DT_I4)age</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Foreach Loop Customers\Load Customers\Id to int.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates"
                   componentClassID="Microsoft.Sort"
                   contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
                   description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
-                  name="Sort"
+                  name="Remove duplicates"
                   version="1">
                   <properties>
                     <property
@@ -1333,11 +1333,11 @@
                   </properties>
                   <inputs>
                     <input
-                      refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input]"
+                      refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input]"
                       name="Sort Input">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[customer_id]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[customer_id]"
                           cachedDataType="i4"
                           cachedName="customer_id"
                           lineageId="Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output].Columns[customer_id]">
@@ -1353,7 +1353,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[customer_name]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[customer_name]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
@@ -1371,7 +1371,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[gender]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[gender]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
@@ -1389,7 +1389,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[age]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[age]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
@@ -1407,7 +1407,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[home_address]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[home_address]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="1000"
@@ -1425,7 +1425,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[zip_code]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[zip_code]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
@@ -1443,7 +1443,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[city]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[city]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
@@ -1461,7 +1461,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[state]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[state]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
@@ -1479,7 +1479,7 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[country]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[country]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
@@ -1497,10 +1497,10 @@
                           </properties>
                         </inputColumn>
                         <inputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input].Columns[Age]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input].Columns[Age]"
                           cachedDataType="i4"
                           cachedName="Age"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Output].Columns[Age]">
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Output].Columns[Age]">
                           <properties>
                             <property
                               dataType="System.Int32"
@@ -1518,14 +1518,14 @@
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output]"
+                      refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output]"
                       isSorted="true"
                       name="Sort Output">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[customer_id]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[customer_id]"
                           dataType="i4"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[customer_id]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[customer_id]"
                           name="customer_id"
                           sortKeyPosition="1">
                           <properties>
@@ -1537,11 +1537,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[customer_name]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[customer_name]"
                           codePage="65001"
                           dataType="str"
                           length="50"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[customer_name]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[customer_name]"
                           name="customer_name">
                           <properties>
                             <property
@@ -1552,11 +1552,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[gender]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[gender]"
                           codePage="65001"
                           dataType="str"
                           length="50"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[gender]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[gender]"
                           name="gender">
                           <properties>
                             <property
@@ -1567,11 +1567,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[age]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[age]"
                           codePage="65001"
                           dataType="str"
                           length="50"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[age]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[age]"
                           name="age">
                           <properties>
                             <property
@@ -1582,11 +1582,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[home_address]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[home_address]"
                           codePage="65001"
                           dataType="str"
                           length="1000"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[home_address]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[home_address]"
                           name="home_address">
                           <properties>
                             <property
@@ -1597,11 +1597,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[zip_code]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[zip_code]"
                           codePage="65001"
                           dataType="str"
                           length="50"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[zip_code]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[zip_code]"
                           name="zip_code">
                           <properties>
                             <property
@@ -1612,11 +1612,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[city]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[city]"
                           codePage="65001"
                           dataType="str"
                           length="50"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[city]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[city]"
                           name="city">
                           <properties>
                             <property
@@ -1627,11 +1627,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[state]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[state]"
                           codePage="65001"
                           dataType="str"
                           length="50"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[state]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[state]"
                           name="state">
                           <properties>
                             <property
@@ -1642,11 +1642,11 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[country]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[country]"
                           codePage="65001"
                           dataType="str"
                           length="50"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[country]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[country]"
                           name="country">
                           <properties>
                             <property
@@ -1657,16 +1657,16 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[Age]"
+                          refId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[Age]"
                           dataType="i4"
-                          lineageId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output].Columns[Age]"
+                          lineageId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output].Columns[Age]"
                           name="Age">
                           <properties>
                             <property
                               containsID="true"
                               dataType="System.Int32"
                               description="Specifies the lineage identifier of the input column that is associated with this output column."
-                              name="SortColumnId">#{Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Output].Columns[Age]}</property>
+                              name="SortColumnId">#{Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Output].Columns[Age]}</property>
                           </properties>
                         </outputColumn>
                       </outputColumns>
@@ -1680,22 +1680,22 @@
                   refId="Package\Foreach Loop Customers\Load Customers.Paths[Derived Column Error Output]"
                   endId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
                   name="Derived Column Error Output"
-                  startId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Error Output]" />
+                  startId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Error Output]" />
                 <path
                   refId="Package\Foreach Loop Customers\Load Customers.Paths[Derived Column Output]"
-                  endId="Package\Foreach Loop Customers\Load Customers\Sort.Inputs[Sort Input]"
+                  endId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Inputs[Sort Input]"
                   name="Derived Column Output"
-                  startId="Package\Foreach Loop Customers\Load Customers\Derived Column.Outputs[Derived Column Output]" />
+                  startId="Package\Foreach Loop Customers\Load Customers\Id to int.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Foreach Loop Customers\Load Customers.Paths[Flat File Source Output]"
-                  endId="Package\Foreach Loop Customers\Load Customers\Derived Column.Inputs[Derived Column Input]"
+                  endId="Package\Foreach Loop Customers\Load Customers\Id to int.Inputs[Derived Column Input]"
                   name="Flat File Source Output"
                   startId="Package\Foreach Loop Customers\Load Customers\Flat File Source.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Foreach Loop Customers\Load Customers.Paths[Sort Output]"
                   endId="Package\Foreach Loop Customers\Load Customers\ADO NET Destination.Inputs[ADO NET Destination Input]"
                   name="Sort Output"
-                  startId="Package\Foreach Loop Customers\Load Customers\Sort.Outputs[Sort Output]" />
+                  startId="Package\Foreach Loop Customers\Load Customers\Remove duplicates.Outputs[Sort Output]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -2192,55 +2192,13 @@
                       name="ADO NET Destination Input">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[product_ID]"
-                          cachedDataType="i4"
-                          cachedName="product_ID"
-                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[product_id]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_ID]" />
-                        <inputColumn
-                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[product_type]"
-                          cachedCodepage="65001"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="product_type"
-                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[product_type]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_type]" />
-                        <inputColumn
-                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[product_name]"
-                          cachedCodepage="65001"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="product_name"
-                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[product_name]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_name]" />
-                        <inputColumn
-                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[size]"
-                          cachedCodepage="65001"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="size"
-                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[size]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[size]" />
-                        <inputColumn
                           refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[colour]"
                           cachedCodepage="65001"
                           cachedDataType="str"
                           cachedLength="50"
                           cachedName="colour"
                           externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[colour]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[colour]" />
-                        <inputColumn
-                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[price]"
-                          cachedDataType="i4"
-                          cachedName="price"
-                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[price]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[price]" />
-                        <inputColumn
-                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[quantity]"
-                          cachedDataType="i4"
-                          cachedName="quantity"
-                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[quantity]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[quantity]" />
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[colour]" />
                         <inputColumn
                           refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[description]"
                           cachedCodepage="65001"
@@ -2248,7 +2206,56 @@
                           cachedLength="1000"
                           cachedName="description"
                           externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[description]"
-                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[description]" />
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[description]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[price]"
+                          cachedDataType="i4"
+                          cachedName="price"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[price]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[price]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[product_ID]"
+                          cachedDataType="i4"
+                          cachedName="product_ID"
+                          cachedSortKeyPosition="1"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[product_id]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_ID]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[product_name]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="product_name"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[product_name]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_name]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[product_type]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="product_type"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[product_type]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_type]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[quantity]"
+                          cachedDataType="i4"
+                          cachedName="quantity"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[quantity]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[quantity]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[size]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="size"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[size]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[size]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].Columns[value_in_stock]"
+                          cachedDataType="i4"
+                          cachedName="value_in_stock"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[value_in_stock]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[value_in_stock]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
@@ -2289,6 +2296,10 @@
                           dataType="wstr"
                           length="2147483647"
                           name="description" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input].ExternalColumns[value_in_stock]"
+                          dataType="i4"
+                          name="value_in_stock" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -2312,6 +2323,505 @@
                           lineageId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+                  description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+                  name="ADO NET Destination 1"
+                  usesDispositions="true"
+                  version="2">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="The Destination database table name."
+                      expressionType="Notify"
+                      name="TableOrViewName"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."Products"</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                      expressionType="Notify"
+                      name="BatchSize">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                      expressionType="Notify"
+                      name="CommandTimeout">30</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                      expressionType="Notify"
+                      name="UseBulkInsertWhenPossible">true</property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Connections[IDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[(localdb)\mssqllocaldb.WebshopInsight]"
+                      connectionManagerRefId="Package.ConnectionManagers[(localdb)\mssqllocaldb.WebshopInsight]"
+                      description="Managed connection manager"
+                      name="IDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="ADO NET Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[product_ID]"
+                          cachedDataType="i4"
+                          cachedName="product_ID"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[product_id]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_ID]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[product_type]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="product_type"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[product_type]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_type]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[product_name]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="product_name"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[product_name]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_name]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[size]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="size"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[size]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[size]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[colour]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="colour"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[colour]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[colour]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[price]"
+                          cachedDataType="i4"
+                          cachedName="price"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[price]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[price]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[quantity]"
+                          cachedDataType="i4"
+                          cachedName="quantity"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[quantity]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[quantity]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].Columns[description]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="1000"
+                          cachedName="description"
+                          externalMetadataColumnId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[description]"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[description]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[product_id]"
+                          dataType="i4"
+                          name="product_id" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[product_type]"
+                          dataType="wstr"
+                          length="100"
+                          name="product_type" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[product_name]"
+                          dataType="wstr"
+                          length="100"
+                          name="product_name" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[size]"
+                          dataType="wstr"
+                          length="50"
+                          name="size" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[colour]"
+                          dataType="wstr"
+                          length="50"
+                          name="colour" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[price]"
+                          dataType="i4"
+                          name="price" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[quantity]"
+                          dataType="i4"
+                          name="quantity" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[description]"
+                          dataType="wstr"
+                          length="2147483647"
+                          name="description" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input].ExternalColumns[value_in_stock]"
+                          dataType="i4"
+                          name="value_in_stock" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Outputs[ADO NET Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="ADO NET Destination Error Output"
+                      synchronousInputId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Products\Load Products\Duplicates delete"
+                  componentClassID="Microsoft.Sort"
+                  contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+                  name="Duplicates delete"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                      name="EliminateDuplicates">true</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the maximum number of threads to use for sorting."
+                      expressionType="Notify"
+                      name="MaximumThreads">-1</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input]"
+                      name="Sort Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[colour]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="colour"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[colour]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[description]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="1000"
+                          cachedName="description"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[description]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[price]"
+                          cachedDataType="i4"
+                          cachedName="price"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[price]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[product_ID]"
+                          cachedDataType="i4"
+                          cachedName="product_ID"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_ID]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">1</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[product_name]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="product_name"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_name]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[product_type]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="product_type"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_type]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[quantity]"
+                          cachedDataType="i4"
+                          cachedName="quantity"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[quantity]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[size]"
+                          cachedCodepage="65001"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="size"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[size]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input].Columns[value_in_stock]"
+                          cachedDataType="i4"
+                          cachedName="value_in_stock"
+                          lineageId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Output].Columns[value_in_stock]">
+                          <properties>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the comparison options for character data."
+                              name="NewComparisonFlags">0</property>
+                            <property
+                              dataType="System.Int32"
+                              description="Specifies the sort order of the column."
+                              name="NewSortKeyPosition">0</property>
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output]"
+                      isSorted="true"
+                      name="Sort Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[colour]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[colour]"
+                          name="colour">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[colour]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[description]"
+                          codePage="65001"
+                          dataType="str"
+                          length="1000"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[description]"
+                          name="description">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[description]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[price]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[price]"
+                          name="price">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[price]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_ID]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_ID]"
+                          name="product_ID"
+                          sortKeyPosition="1">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_ID]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_name]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_name]"
+                          name="product_name">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_name]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_type]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[product_type]"
+                          name="product_type">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[product_type]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[quantity]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[quantity]"
+                          name="quantity">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[quantity]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[size]"
+                          codePage="65001"
+                          dataType="str"
+                          length="50"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[size]"
+                          name="size">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[size]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[value_in_stock]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output].Columns[value_in_stock]"
+                          name="value_in_stock">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the lineage identifier of the input column that is associated with this output column."
+                              name="SortColumnId">#{Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Output].Columns[value_in_stock]}</property>
+                          </properties>
+                        </outputColumn>
                       </outputColumns>
                       <externalMetadataColumns />
                     </output>
@@ -2594,13 +3104,113 @@
                     </output>
                   </outputs>
                 </component>
+                <component
+                  refId="Package\Foreach Loop Products\Load Products\value in stock"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="value in stock"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Products\Load Products\value in stock.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\value in stock.Inputs[Derived Column Input].Columns[price]"
+                          cachedDataType="i4"
+                          cachedName="price"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[price]" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Products\Load Products\value in stock.Inputs[Derived Column Input].Columns[quantity]"
+                          cachedDataType="i4"
+                          cachedName="quantity"
+                          lineageId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[quantity]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Foreach Loop Products\Load Products\value in stock.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Output].Columns[value_in_stock]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="RedirectRow"
+                          lineageId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Output].Columns[value_in_stock]"
+                          name="value_in_stock"
+                          truncationRowDisposition="RedirectRow">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">#{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[price]} * #{Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output].Columns[quantity]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">price * quantity</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Foreach Loop Products\Load Products\value in stock.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
               </components>
               <paths>
                 <path
+                  refId="Package\Foreach Loop Products\Load Products.Paths[Derived Column Error Output]"
+                  endId="Package\Foreach Loop Products\Load Products\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
+                  name="Derived Column Error Output"
+                  startId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Error Output]" />
+                <path
+                  refId="Package\Foreach Loop Products\Load Products.Paths[Derived Column Output]"
+                  endId="Package\Foreach Loop Products\Load Products\Duplicates delete.Inputs[Sort Input]"
+                  name="Derived Column Output"
+                  startId="Package\Foreach Loop Products\Load Products\value in stock.Outputs[Derived Column Output]" />
+                <path
                   refId="Package\Foreach Loop Products\Load Products.Paths[Flat File Source Output]"
-                  endId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input]"
+                  endId="Package\Foreach Loop Products\Load Products\value in stock.Inputs[Derived Column Input]"
                   name="Flat File Source Output"
                   startId="Package\Foreach Loop Products\Load Products\Products load.Outputs[Flat File Source Output]" />
+                <path
+                  refId="Package\Foreach Loop Products\Load Products.Paths[Sort Output]"
+                  endId="Package\Foreach Loop Products\Load Products\ADO NET Destination.Inputs[ADO NET Destination Input]"
+                  name="Sort Output"
+                  startId="Package\Foreach Loop Products\Load Products\Duplicates delete.Outputs[Sort Output]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -2937,95 +3547,6 @@
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Foreach Loop Sales\Load Sales\Conditional Split"
-                  componentClassID="Microsoft.ConditionalSplit"
-                  contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-                  description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
-                  name="Conditional Split"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Inputs[Conditional Split Input]"
-                      description="Input to the Conditional Split Transformation"
-                      name="Conditional Split Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Inputs[Conditional Split Input].Columns[quantity]"
-                          cachedDataType="i4"
-                          cachedName="quantity"
-                          lineageId="Package\Foreach Loop Sales\Load Sales\Flat File Source.Outputs[Flat File Source Output].Columns[quantity]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Quantity]"
-                      description="Output 1 of the Conditional Split Transformation"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="RedirectRow"
-                      exclusionGroup="1"
-                      name="Quantity"
-                      synchronousInputId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Inputs[Conditional Split Input]"
-                      truncationRowDisposition="RedirectRow">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                          name="Expression">#{Package\Foreach Loop Sales\Load Sales\Flat File Source.Outputs[Flat File Source Output].Columns[quantity]} != 0</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Specifies the friendly version of the expression. This expression version uses column names."
-                          expressionType="Notify"
-                          name="FriendlyExpression">quantity != 0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
-                          name="EvaluationOrder">0</property>
-                      </properties>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Conditional Split Default Output]"
-                      description="Default Output of the Conditional Split Transformation"
-                      exclusionGroup="1"
-                      name="Conditional Split Default Output"
-                      synchronousInputId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Inputs[Conditional Split Input]">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          name="IsDefaultOut">true</property>
-                      </properties>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Conditional Split Error Output]"
-                      description="Error Output of the Conditional Split Transformation"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Conditional Split Error Output"
-                      synchronousInputId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Inputs[Conditional Split Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
                   refId="Package\Foreach Loop Sales\Load Sales\Flat File Source"
                   componentClassID="Microsoft.FlatFileSource"
                   contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -3234,23 +3755,112 @@
                     </output>
                   </outputs>
                 </component>
+                <component
+                  refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero"
+                  componentClassID="Microsoft.ConditionalSplit"
+                  contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+                  name="Quantity not zero"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Inputs[Conditional Split Input]"
+                      description="Input to the Conditional Split Transformation"
+                      name="Conditional Split Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Inputs[Conditional Split Input].Columns[quantity]"
+                          cachedDataType="i4"
+                          cachedName="quantity"
+                          lineageId="Package\Foreach Loop Sales\Load Sales\Flat File Source.Outputs[Flat File Source Output].Columns[quantity]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Quantity]"
+                      description="Output 1 of the Conditional Split Transformation"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="RedirectRow"
+                      exclusionGroup="1"
+                      name="Quantity"
+                      synchronousInputId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Inputs[Conditional Split Input]"
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                          name="Expression">#{Package\Foreach Loop Sales\Load Sales\Flat File Source.Outputs[Flat File Source Output].Columns[quantity]} != 0</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the friendly version of the expression. This expression version uses column names."
+                          expressionType="Notify"
+                          name="FriendlyExpression">quantity != 0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                          name="EvaluationOrder">0</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Conditional Split Default Output]"
+                      description="Default Output of the Conditional Split Transformation"
+                      exclusionGroup="1"
+                      name="Conditional Split Default Output"
+                      synchronousInputId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Inputs[Conditional Split Input]">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="IsDefaultOut">true</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Conditional Split Error Output]"
+                      description="Error Output of the Conditional Split Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Conditional Split Error Output"
+                      synchronousInputId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Inputs[Conditional Split Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
               </components>
               <paths>
                 <path
                   refId="Package\Foreach Loop Sales\Load Sales.Paths[Conditional Split Error Output]"
                   endId="Package\Foreach Loop Sales\Load Sales\ADO NET Destination 1.Inputs[ADO NET Destination Input]"
                   name="Conditional Split Error Output"
-                  startId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Conditional Split Error Output]" />
+                  startId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Conditional Split Error Output]" />
                 <path
                   refId="Package\Foreach Loop Sales\Load Sales.Paths[Flat File Source Output]"
-                  endId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Inputs[Conditional Split Input]"
+                  endId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Inputs[Conditional Split Input]"
                   name="Flat File Source Output"
                   startId="Package\Foreach Loop Sales\Load Sales\Flat File Source.Outputs[Flat File Source Output]" />
                 <path
                   refId="Package\Foreach Loop Sales\Load Sales.Paths[Quantity]"
                   endId="Package\Foreach Loop Sales\Load Sales\ADO NET Destination.Inputs[ADO NET Destination Input]"
                   name="Quantity"
-                  startId="Package\Foreach Loop Sales\Load Sales\Conditional Split.Outputs[Quantity]" />
+                  startId="Package\Foreach Loop Sales\Load Sales\Quantity not zero.Outputs[Quantity]" />
               </paths>
             </pipeline>
           </DTS:ObjectData>
@@ -3266,20 +3876,20 @@
       </DTS:ForEachVariableMappings>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\tunrcate tables"
+      DTS:refId="Package\truncate tables"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{5B84E604-08E6-4D89-8528-0C73224A52F6}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="tunrcate tables"
+      DTS:ObjectName="truncate tables"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{FA53EB29-EFD9-4D18-89FC-946A2500345A}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE Customers;TRUNCATE TABLE Products;TRUNCATE TABLE Sales;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE Customers;TRUNCATE TABLE Products;TRUNCATE TABLE Sales;TRUNCATE TABLE Orders;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -3288,7 +3898,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{D9EAA92C-5844-4BA1-B106-38E3177A36B3}"
-      DTS:From="Package\tunrcate tables"
+      DTS:From="Package\truncate tables"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Foreach Loop Customers" />
@@ -3296,7 +3906,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
       DTS:DTSID="{560CC71D-9303-4098-9045-5E9FE22BADED}"
-      DTS:From="Package\tunrcate tables"
+      DTS:From="Package\truncate tables"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Foreach Loop Products" />
@@ -3304,7 +3914,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
       DTS:DTSID="{D9707B00-3D48-4FDD-AE95-E0C7A819DCA0}"
-      DTS:From="Package\tunrcate tables"
+      DTS:From="Package\truncate tables"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\Foreach Loop Sales" />
@@ -3312,7 +3922,7 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
       DTS:DTSID="{DDB6B8EB-A9CA-449A-B930-83334EE0471F}"
-      DTS:From="Package\tunrcate tables"
+      DTS:From="Package\truncate tables"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Foreach Loop Orders" />
@@ -3341,6 +3951,17 @@
           Id="Package\Foreach Loop Customers"
           TopLeft="9,189.583332391663" />
         <NodeLayout
+          Size="137,42"
+          Id="Package\Foreach Loop Orders\Load Orders"
+          TopLeft="39.125,38.7812486177621" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="221,109.5"
+          Size="221,152.5"
+          Id="Package\Foreach Loop Orders"
+          TopLeft="793.75,196.354165691365" />
+        <NodeLayout
           Size="146.5,42"
           Id="Package\Foreach Loop Products\Load Products"
           TopLeft="30,20.8333319558038" />
@@ -3363,35 +3984,35 @@
           Id="Package\Foreach Loop Sales"
           TopLeft="526,194.541665727687" />
         <NodeLayout
-          Size="166.5,42"
-          Id="Package\tunrcate tables"
+          Size="148,42"
+          Id="Package\truncate tables"
           TopLeft="229.5,41.1666664621896" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="273.125,83.1666664621896">
+          TopLeft="261.5,83.1666664621896">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-154.125,106.416665929473"
+              EndConnector="-142.5,106.416665929473"
               Start="0,0"
-              End="-154.125,98.9166659294731">
+              End="-142.5,98.9166659294734">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.5905580388041" />
+                    End="0,28.1257859409731" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,32.5905580388041"
-                    Point2="0,36.5905580388041"
-                    Point3="-4,36.5905580388041" />
+                    Point1="0,28.1257859409731"
+                    Point2="0,32.1257859409731"
+                    Point3="-4,32.1257859409731" />
                   <mssgle:LineSegment
-                    End="-150.125,36.5905580388041" />
+                    End="-138.5,32.1257859409731" />
                   <mssgle:CubicBezierSegment
-                    Point1="-150.125,36.5905580388041"
-                    Point2="-154.125,36.5905580388041"
-                    Point3="-154.125,40.5905580388041" />
+                    Point1="-138.5,32.1257859409731"
+                    Point2="-142.5,32.1257859409731"
+                    Point3="-142.5,36.1257859409731" />
                   <mssgle:LineSegment
-                    End="-154.125,98.9166659294731" />
+                    End="-142.5,98.9166659294734" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3402,30 +4023,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="312.75,83.1666664621896">
+          TopLeft="289.5,83.1666664621896">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="68.25,110.749999241283"
+              EndConnector="91.5,110.749999241282"
               Start="0,0"
-              End="68.25,103.249999241283">
+              End="91.5,103.249999241282">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51.3749996206413" />
+                    End="0,45.5895518990817" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,51.3749996206413"
-                    Point2="0,55.3749996206413"
-                    Point3="4,55.3749996206413" />
+                    Point1="0,45.5895518990817"
+                    Point2="0,49.5895518990817"
+                    Point3="4,49.5895518990817" />
                   <mssgle:LineSegment
-                    End="64.25,55.3749996206413" />
+                    End="87.5,49.5895518990817" />
                   <mssgle:CubicBezierSegment
-                    Point1="64.25,55.3749996206413"
-                    Point2="68.25,55.3749996206413"
-                    Point3="68.25,59.3749996206413" />
+                    Point1="87.5,49.5895518990817"
+                    Point2="91.5,49.5895518990817"
+                    Point3="91.5,53.5895518990817" />
                   <mssgle:LineSegment
-                    End="68.25,103.249999241283" />
+                    End="91.5,103.249999241282" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3436,30 +4057,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="328.6,83.1666664621896">
+          TopLeft="317.5,83.1666664621896">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="304.9,111.374999265497"
+              EndConnector="316,111.374999265497"
               Start="0,0"
-              End="304.9,103.874999265497">
+              End="316,103.874999265497">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,45.8285758413178" />
+                    End="0,45.8694026561929" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,45.8285758413178"
-                    Point2="0,49.8285758413178"
-                    Point3="4,49.8285758413178" />
+                    Point1="0,45.8694026561929"
+                    Point2="0,49.8694026561929"
+                    Point3="4,49.8694026561929" />
                   <mssgle:LineSegment
-                    End="300.9,49.8285758413178" />
+                    End="312,49.8694026561929" />
                   <mssgle:CubicBezierSegment
-                    Point1="300.9,49.8285758413178"
-                    Point2="304.9,49.8285758413178"
-                    Point3="304.9,53.8285758413178" />
+                    Point1="312,49.8694026561929"
+                    Point2="316,49.8694026561929"
+                    Point3="316,53.8694026561929" />
                   <mssgle:LineSegment
-                    End="304.9,103.874999265497" />
+                    End="316,103.874999265497" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3468,43 +4089,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="137,42"
-          Id="Package\Foreach Loop Orders\Load Orders"
-          TopLeft="39.125,38.7812486177621" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="221,109.5"
-          Size="221,152.5"
-          Id="Package\Foreach Loop Orders"
-          TopLeft="793.75,196.354165691365" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="360.3,83.1666664621896">
+          TopLeft="345.5,83.1666664621896">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="543.95,113.187499229175"
+              EndConnector="558.75,113.187499229175"
               Start="0,0"
-              End="543.95,105.687499229175">
+              End="558.75,105.687499229175">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.9705230977853" />
+                    End="0,30.1698110880529" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,29.9705230977853"
-                    Point2="0,33.9705230977853"
-                    Point3="4,33.9705230977853" />
+                    Point1="0,30.1698110880529"
+                    Point2="0,34.1698110880529"
+                    Point3="4,34.1698110880529" />
                   <mssgle:LineSegment
-                    End="539.95,33.9705230977853" />
+                    End="554.75,34.1698110880529" />
                   <mssgle:CubicBezierSegment
-                    Point1="539.95,33.9705230977853"
-                    Point2="543.95,33.9705230977853"
-                    Point3="543.95,37.9705230977853" />
+                    Point1="554.75,34.1698110880529"
+                    Point2="558.75,34.1698110880529"
+                    Point3="558.75,38.1698110880529" />
                   <mssgle:LineSegment
-                    End="543.95,105.687499229175" />
+                    End="558.75,105.687499229175" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3526,12 +4136,12 @@
           Id="Package\Foreach Loop Customers\Load Customers\ADO NET Destination 1"
           TopLeft="297.5,228.166665784187" />
         <NodeLayout
-          Size="98.5,42"
-          Id="Package\Foreach Loop Customers\Load Customers\Sort"
+          Size="168.5,42"
+          Id="Package\Foreach Loop Customers\Load Customers\Remove duplicates"
           TopLeft="92.5,229.6666655259" />
         <NodeLayout
-          Size="154.5,42"
-          Id="Package\Foreach Loop Customers\Load Customers\Derived Column"
+          Size="113,42"
+          Id="Package\Foreach Loop Customers\Load Customers\Id to int"
           TopLeft="149.5,123.583332746807" />
         <NodeLayout
           Size="181,46"
@@ -3543,13 +4153,13 @@
           TopLeft="154,7.04166663169034" />
         <EdgeLayout
           Id="Package\Foreach Loop Customers\Load Customers.Paths[Sort Output]"
-          TopLeft="141.75,271.6666655259">
+          TopLeft="176.75,271.6666655259">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-11.25,78.7916660666879"
+              EndConnector="-46.25,78.791666066688"
               Start="0,0"
-              End="-11.25,71.2916660666879">
+              End="-46.25,71.291666066688">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -3560,116 +4170,122 @@
                     Point2="0,39.395833033344"
                     Point3="-4,39.395833033344" />
                   <mssgle:LineSegment
-                    End="-7.25,39.395833033344" />
+                    End="-42.25,39.395833033344" />
                   <mssgle:CubicBezierSegment
-                    Point1="-7.25,39.395833033344"
-                    Point2="-11.25,39.395833033344"
-                    Point3="-11.25,43.395833033344" />
+                    Point1="-42.25,39.395833033344"
+                    Point2="-46.25,39.395833033344"
+                    Point3="-46.25,43.395833033344" />
                   <mssgle:LineSegment
-                    End="-11.25,71.2916660666879" />
+                    End="-46.25,71.291666066688" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach Loop Customers\Load Customers.Paths[Flat File Source Output]"
-          TopLeft="228.5,49.0416666316903">
+          TopLeft="230.25,49.0416666316903">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,74.5416661151167"
+              EndConnector="-24.25,74.5416661151167"
               Start="0,0"
-              End="0,67.0416661151167">
+              End="-24.25,67.0416661151167">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,67.0416661151167" />
+                    End="0,33.2708330575583" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.2708330575583"
+                    Point2="0,37.2708330575583"
+                    Point3="-4,37.2708330575583" />
+                  <mssgle:LineSegment
+                    End="-20.25,37.2708330575583" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-20.25,37.2708330575583"
+                    Point2="-24.25,37.2708330575583"
+                    Point3="-24.25,41.2708330575583" />
+                  <mssgle:LineSegment
+                    End="-24.25,67.0416661151167" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach Loop Customers\Load Customers.Paths[Derived Column Output]"
-          TopLeft="226.75,165.583332746807">
+          TopLeft="188.5,165.583332746807">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-85,64.083332779093"
+              EndConnector="-11.75,64.083332779093"
               Start="0,0"
-              End="-85,56.583332779093">
+              End="-11.75,56.583332779093">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.0416663895465" />
+                    End="0,22.1701568417238" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28.0416663895465"
-                    Point2="0,32.0416663895465"
-                    Point3="-4,32.0416663895465" />
+                    Point1="0,22.1701568417238"
+                    Point2="0,26.1701568417238"
+                    Point3="-4,26.1701568417238" />
                   <mssgle:LineSegment
-                    End="-81,32.0416663895465" />
+                    End="-7.75,26.1701568417238" />
                   <mssgle:CubicBezierSegment
-                    Point1="-81,32.0416663895465"
-                    Point2="-85,32.0416663895465"
-                    Point3="-85,36.0416663895465" />
+                    Point1="-7.75,26.1701568417238"
+                    Point2="-11.75,26.1701568417238"
+                    Point3="-11.75,30.1701568417238" />
                   <mssgle:LineSegment
-                    End="-85,56.583332779093" />
+                    End="-11.75,56.583332779093" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Foreach Loop Customers\Load Customers.Paths[Derived Column Error Output]"
-          TopLeft="251.166666666667,165.583332746807">
+          TopLeft="223.5,165.583332746807">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="141.083333333333,62.5833330373798"
+              EndConnector="168.75,62.58333303738"
               Start="0,0"
-              End="141.083333333333,55.0833330373798">
+              End="168.75,55.08333303738">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.4182146993586" />
+                    End="0,21.5575915021761" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.4182146993586"
-                    Point2="0,25.4182146993586"
-                    Point3="4,25.4182146993586" />
+                    Point1="0,21.5575915021761"
+                    Point2="0,25.5575915021761"
+                    Point3="4,25.5575915021761" />
                   <mssgle:LineSegment
-                    End="137.083333333333,25.4182146993586" />
+                    End="164.75,25.5575915021761" />
                   <mssgle:CubicBezierSegment
-                    Point1="137.083333333333,25.4182146993586"
-                    Point2="141.083333333333,25.4182146993586"
-                    Point3="141.083333333333,29.4182146993586" />
+                    Point1="164.75,25.5575915021761"
+                    Point2="168.75,25.5575915021761"
+                    Point3="168.75,29.5575915021761" />
                   <mssgle:LineSegment
-                    End="141.083333333333,55.0833330373798" />
+                    End="168.75,55.08333303738" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="5.58027994791668,30.4182146993586,129.9227734375,11.609375"
+              BoundingBox="19.41361328125,30.5575915021761,129.9227734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -3693,204 +4309,10 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Foreach Loop Products\Load Products">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="181,42"
-          Id="Package\Foreach Loop Products\Load Products\ADO NET Destination"
-          TopLeft="103.333333333333,178" />
-        <NodeLayout
-          Size="143,42"
-          Id="Package\Foreach Loop Products\Load Products\Products load"
-          TopLeft="180.666666666667,78" />
-        <EdgeLayout
-          Id="Package\Foreach Loop Products\Load Products.Paths[Flat File Source Output]"
-          TopLeft="252.166666666667,120">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-58.3333333333333,58"
-              Start="0,0"
-              End="-58.3333333333333,50.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25"
-                    Point2="0,29"
-                    Point3="-4,29" />
-                  <mssgle:LineSegment
-                    End="-54.3333333333333,29" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-54.3333333333333,29"
-                    Point2="-58.3333333333333,29"
-                    Point3="-58.3333333333333,33" />
-                  <mssgle:LineSegment
-                    End="-58.3333333333333,50.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Foreach Loop Products\Load Products\ADO NET Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Foreach Loop Sales\Load Sales">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Foreach Loop Sales\Load Sales\Conditional Split"
-          TopLeft="177.333333333333,125.333333333333" />
-        <NodeLayout
-          Size="152.5,42"
-          Id="Package\Foreach Loop Sales\Load Sales\Flat File Source"
-          TopLeft="177.333333333333,38" />
-        <EdgeLayout
-          Id="Package\Foreach Loop Sales\Load Sales.Paths[Flat File Source Output]"
-          TopLeft="254.208333333333,80">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,45.3333333333333"
-              Start="0,0"
-              End="0,37.8333333333333">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.8333333333333" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="181,42"
-          Id="Package\Foreach Loop Sales\Load Sales\ADO NET Destination"
-          TopLeft="60.5,230.208332189876" />
-        <EdgeLayout
-          Id="Package\Foreach Loop Sales\Load Sales.Paths[Quantity]"
-          TopLeft="230.333333333333,167.333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-79.333333333333,62.8749988565432"
-              Start="0,0"
-              End="-79.333333333333,55.3749988565432">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.5354401486344" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,21.5354401486344"
-                    Point2="0,25.5354401486344"
-                    Point3="-4,25.5354401486344" />
-                  <mssgle:LineSegment
-                    End="-75.333333333333,25.5354401486344" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-75.333333333333,25.5354401486344"
-                    Point2="-79.333333333333,25.5354401486344"
-                    Point3="-79.333333333333,29.5354401486344" />
-                  <mssgle:LineSegment
-                    End="-79.333333333333,55.3749988565432" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-59.2111197916665,30.5354401486344,39.08890625,11.43359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="189.5,42"
-          Id="Package\Foreach Loop Sales\Load Sales\ADO NET Destination 1"
-          TopLeft="327,232.916665509757" />
-        <EdgeLayout
-          Id="Package\Foreach Loop Sales\Load Sales.Paths[Conditional Split Error Output]"
-          TopLeft="279.333333333333,167.333333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="142.416666666667,65.5833321764241"
-              Start="0,0"
-              End="142.416666666667,58.0833321764241">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.6353762862105" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,22.6353762862105"
-                    Point2="0,26.6353762862105"
-                    Point3="4,26.6353762862105" />
-                  <mssgle:LineSegment
-                    End="138.416666666667,26.6353762862105" />
-                  <mssgle:CubicBezierSegment
-                    Point1="138.416666666667,26.6353762862105"
-                    Point2="142.416666666667,26.6353762862105"
-                    Point3="142.416666666667,30.6353762862105" />
-                  <mssgle:LineSegment
-                    End="142.416666666667,58.0833321764241" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="5.51442708333349,31.6353762862105,131.3878125,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Foreach Loop Sales\Load Sales\ADO NET Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Foreach Loop Sales\Load Sales\ADO NET Destination 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\Foreach Loop Orders\Load Orders">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="152.5,42"
           Id="Package\Foreach Loop Orders\Load Orders\Flat File Source"
@@ -3918,7 +4340,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3926,6 +4350,310 @@
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Foreach Loop Orders\Load Orders\ADO NET Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Foreach Loop Products\Load Products">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="143,42"
+          Id="Package\Foreach Loop Products\Load Products\Products load"
+          TopLeft="180.666666666667,78" />
+        <NodeLayout
+          Size="142.5,42"
+          Id="Package\Foreach Loop Products\Load Products\value in stock"
+          TopLeft="185,171.708332480449" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Products\Load Products.Paths[Flat File Source Output]"
+          TopLeft="254.208333333333,120">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.7083324804488"
+              Start="0,0"
+              End="0,44.2083324804488">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.2083324804488" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="159.5,42"
+          Id="Package\Foreach Loop Products\Load Products\Duplicates delete"
+          TopLeft="140.5,268.12499889421" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Products\Load Products.Paths[Derived Column Output]"
+          TopLeft="256.25,213.708332480449">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-36,54.4166664137609"
+              Start="0,0"
+              End="-36,46.9166664137609">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.2083332068804" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.2083332068804"
+                    Point2="0,27.2083332068804"
+                    Point3="-4,27.2083332068804" />
+                  <mssgle:LineSegment
+                    End="-32,27.2083332068804" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-32,27.2083332068804"
+                    Point2="-36,27.2083332068804"
+                    Point3="-36,31.2083332068804" />
+                  <mssgle:LineSegment
+                    End="-36,46.9166664137609" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Foreach Loop Products\Load Products\ADO NET Destination"
+          TopLeft="143,353.708331576445" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Products\Load Products.Paths[Sort Output]"
+          TopLeft="220.25,310.12499889421">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13.25,43.5833326822353"
+              Start="0,0"
+              End="13.25,36.0833326822353">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.7916663411177" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.7916663411177"
+                    Point2="0,21.7916663411177"
+                    Point3="4,21.7916663411177" />
+                  <mssgle:LineSegment
+                    End="9.25,21.7916663411177" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9.25,21.7916663411177"
+                    Point2="13.25,21.7916663411177"
+                    Point3="13.25,25.7916663411177" />
+                  <mssgle:LineSegment
+                    End="13.25,36.0833326822353" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="189.5,42"
+          Id="Package\Foreach Loop Products\Load Products\ADO NET Destination 1"
+          TopLeft="387,271.291665550114" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Products\Load Products.Paths[Derived Column Error Output]"
+          TopLeft="278.666666666667,213.708332480449">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="203.083333333333,57.5833330696656"
+              Start="0,0"
+              End="203.083333333333,50.0833330696656">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.4169557104955" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.4169557104955"
+                    Point2="0,23.4169557104955"
+                    Point3="4,23.4169557104955" />
+                  <mssgle:LineSegment
+                    End="199.083333333333,23.4169557104955" />
+                  <mssgle:CubicBezierSegment
+                    Point1="199.083333333333,23.4169557104955"
+                    Point2="203.083333333333,23.4169557104955"
+                    Point3="203.083333333333,27.4169557104955" />
+                  <mssgle:LineSegment
+                    End="203.083333333333,50.0833330696656" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="36.5802799479167,28.4169557104955,129.9227734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Foreach Loop Sales\Load Sales">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Foreach Loop Sales\Load Sales\Quantity not zero"
+          TopLeft="177.333333333333,125.333333333333" />
+        <NodeLayout
+          Size="152.5,42"
+          Id="Package\Foreach Loop Sales\Load Sales\Flat File Source"
+          TopLeft="177.333333333333,38" />
+        <NodeLayout
+          Size="189.5,42"
+          Id="Package\Foreach Loop Sales\Load Sales\ADO NET Destination 1"
+          TopLeft="327,232.916665509757" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Foreach Loop Sales\Load Sales\ADO NET Destination"
+          TopLeft="60.5,230.208332189876" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Sales\Load Sales.Paths[Quantity]"
+          TopLeft="231.666666666666,167.333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-80.6666666666663,62.874998856543"
+              Start="0,0"
+              End="-80.6666666666663,55.374998856543">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5258401335405" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.5258401335405"
+                    Point2="0,25.5258401335405"
+                    Point3="-4,25.5258401335405" />
+                  <mssgle:LineSegment
+                    End="-76.6666666666663,25.5258401335405" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-76.6666666666663,25.5258401335405"
+                    Point2="-80.6666666666663,25.5258401335405"
+                    Point3="-80.6666666666663,29.5258401335405" />
+                  <mssgle:LineSegment
+                    End="-80.6666666666663,55.374998856543" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-59.8777864583332,30.5258401335405,39.08890625,11.43359375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach Loop Sales\Load Sales.Paths[Flat File Source Output]"
+          TopLeft="255.208333333333,80">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45.333333333333"
+              Start="0,0"
+              End="0,37.833333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.833333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach Loop Sales\Load Sales.Paths[Conditional Split Error Output]"
+          TopLeft="282,167.333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="139.75,65.583332176424"
+              Start="0,0"
+              End="139.75,58.083332176424">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.6253627515744" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.6253627515744"
+                    Point2="0,26.6253627515744"
+                    Point3="4,26.6253627515744" />
+                  <mssgle:LineSegment
+                    End="135.75,26.6253627515744" />
+                  <mssgle:CubicBezierSegment
+                    Point1="135.75,26.6253627515744"
+                    Point2="139.75,26.6253627515744"
+                    Point3="139.75,30.6253627515744" />
+                  <mssgle:LineSegment
+                    End="139.75,58.083332176424" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="4.18109375000017,31.6253627515744,131.3878125,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach Loop Sales\Load Sales\ADO NET Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach Loop Sales\Load Sales\ADO NET Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach Loop Products\Load Products\ADO NET Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Foreach Loop Products\Load Products\ADO NET Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
